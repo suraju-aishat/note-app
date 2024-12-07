@@ -72,7 +72,7 @@ const Home = () => {
 
     try {
       const res = await axios.delete(
-        "http://localhost:3000/api/note/delete/" + noteId,
+        "https://note-app-backend-xqzt.onrender.com/api/note/delete/" + noteId,
         { withCredentials: true }
       )
 
