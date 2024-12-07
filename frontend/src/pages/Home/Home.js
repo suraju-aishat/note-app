@@ -6,7 +6,7 @@ import AddEditNotes from './AddEditNotes'
 import { useSelector } from "react-redux"
 import { useNavigate } from "react-router-dom"
 import Navbar from '../../components/Navbar'
-import axios, { all } from "axios"
+import axios from "axios"
 import { toast } from "react-toastify"
 import EmptyCard from "../../components/EmptyCard/EmptyCard"
 
